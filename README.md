@@ -1,9 +1,8 @@
 # StealthCam Pro
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/StealthCam/main/assets/banner.png" alt="StealthCam Pro Banner" width="100%">
-  
-  [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/StealthCam/releases)
+
+  [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://stealthcampro.github.io/StealthCam-Pro/repo/)
   [![iOS](https://img.shields.io/badge/iOS-14.0%2B-brightgreen.svg)](https://www.apple.com/ios/)
   [![License](https://img.shields.io/badge/license-Commercial-red.svg)](LICENSE)
   [![Telegram](https://img.shields.io/badge/Telegram-Channel-blue.svg)](https://t.me/stealthcamprobot)
@@ -83,7 +82,7 @@ StealthCam Pro is a professional-grade iOS tweak that transforms your iPhone int
 
 1. **Add Repository**
    ```
-   https://repo.stealthcam.pro
+   https://stealthcampro.github.io/StealthCam-Pro/repo/
    ```
 
 2. **Search & Install**
@@ -189,7 +188,7 @@ StealthCam Pro 是一款专业级 iOS 越狱插件，让您的 iPhone 变身为�
 
 1. **添加软件源**
    ```
-   https://repo.stealthcam.pro
+   https://stealthcampro.github.io/StealthCam-Pro/repo/
    ```
 
 2. **搜索安装**
