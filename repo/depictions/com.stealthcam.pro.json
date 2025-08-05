@@ -1,0 +1,116 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://stealthcam.github.io/repo/assets/header.jpg",
+    "tintColor": "#007AFF",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "StealthCam Pro",
+                    "packageName": "com.stealthcam.pro",
+                    "author": "StealthCam Team",
+                    "version": "1.0.0-6"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**StealthCam Pro** is a powerful iOS jailbreak tweak that enables discreet video recording with double-tap volume controls.\n\n### Key Features:\n• **Double-tap Control**: Volume down key double-tap to start/stop recording\n• **4K Recording**: Support for 720p to 4K resolution at 30/60fps\n• **Camera Switching**: Front and rear camera support\n• **Audio Recording**: Optional audio recording\n• **HDR Support**: High Dynamic Range video recording\n• **Background Mode**: Completely hidden background operation\n• **Customizable**: Adjustable settings and vibration feedback\n\n### Perfect for:\n• Security professionals\n• Journalists and documentarians\n• Content creators\n• Anyone needing discreet recording capabilities"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Compatibility"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "iOS Versions",
+                    "text": "iOS 14.0 - 16.6 (iOS 17 in testing)"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Supported Devices",
+                    "text": "iPhone 8 and newer"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Jailbreak Tools",
+                    "text": "Dopamine, palera1n, Taurine, unc0ver"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Important Notice"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "⚠️ **Legal Disclaimer**: This tweak is for educational and professional purposes only. Users are responsible for complying with local laws and regulations regarding recording. Please use responsibly and ethically.\n\n🔒 **Privacy**: StealthCam Pro operates entirely offline and does not collect or transmit any personal data."
+                }
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Version History"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Version 1.0.0-6"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "August 5, 2024",
+                    "textColor": "#999999"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed system freeze issue with vibration feedback\n• Improved volume key detection accuracy\n• Added proper single-tap handling\n• Enhanced debug logging system\n• Stability improvements"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Version 1.0.0-5"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "August 5, 2024",
+                    "textColor": "#999999"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Added vibration feedback for recording start/stop\n• Implemented UIImpactFeedbackGenerator support\n• Enhanced error handling\n• Better user experience"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Version 1.0.0-4"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "August 5, 2024",
+                    "textColor": "#999999"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "• Fixed volume key detection issues\n• Added support for volume up/down key selection\n• Improved preference handling\n• Better configuration options"
+                }
+            ]
+        }
+    ]
+}

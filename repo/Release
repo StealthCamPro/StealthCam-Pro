@@ -1,0 +1,18 @@
+Origin: StealthCam Pro Repository
+Label: StealthCam Pro Repo
+Suite: stable
+Version: 1.0
+Codename: stealthcam
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Official repository for StealthCam Pro - Professional iOS recording tweak
+MD5Sum:
+ 044d82ebb45c4a48b861604c42f3b2a4 1571 Packages
+ 52d14f60603bc107fbe8180475d2ffe2 805 Packages.gz
+SHA1:
+ 2f618115df632674ee243ce326c7ad520b37fc85 1571 Packages
+ c3c7641ae2e78d650c4f442deaee66fa666efa69 805 Packages.gz
+SHA256:
+ 54c8f0459d2c29f168cb0b6895ad72f53ad685294f436dc0b597312c64e328c6 1571 Packages
+ 41cea1c3817bee0833b49a9b0e348f93901255bbf10a7fd52abc96eddaf980e1 805 Packages.gz
+Date: Mon, 05 Aug 2024 12:00:00 +0000

@@ -1,0 +1,90 @@
+name: Update APT Repository
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'debs/**'
+      - 'Packages'
+      - 'Release'
+  workflow_dispatch:
+
+jobs:
+  update-repo:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Install APT utilities
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y gzip dpkg-dev apt-utils
+    
+    - name: Generate Packages.gz
+      run: |
+        cd ${{ github.workspace }}
+        if [ -f "Packages" ]; then
+          gzip -9 -c Packages > Packages.gz
+          echo "✅ Generated Packages.gz"
+        fi
+    
+    - name: Update Release file
+      run: |
+        cd ${{ github.workspace }}
+        
+        # Calculate checksums
+        if [ -f "Packages" ]; then
+          PACKAGES_SIZE=$(wc -c < Packages)
+          PACKAGES_MD5=$(md5sum Packages | cut -d' ' -f1)
+          PACKAGES_SHA1=$(sha1sum Packages | cut -d' ' -f1)
+          PACKAGES_SHA256=$(sha256sum Packages | cut -d' ' -f1)
+        fi
+        
+        if [ -f "Packages.gz" ]; then
+          PACKAGESGZ_SIZE=$(wc -c < Packages.gz)
+          PACKAGESGZ_MD5=$(md5sum Packages.gz | cut -d' ' -f1)
+          PACKAGESGZ_SHA1=$(sha1sum Packages.gz | cut -d' ' -f1)
+          PACKAGESGZ_SHA256=$(sha256sum Packages.gz | cut -d' ' -f1)
+        fi
+        
+        # Generate new Release file
+        cat > Release << EOF
+        Origin: StealthCam Pro Repository
+        Label: StealthCam Pro Repo
+        Suite: stable
+        Version: 1.0
+        Codename: stealthcam
+        Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+        Components: main
+        Description: Official repository for StealthCam Pro - Professional iOS recording tweak
+        MD5Sum:
+         ${PACKAGES_MD5} ${PACKAGES_SIZE} Packages
+         ${PACKAGESGZ_MD5} ${PACKAGESGZ_SIZE} Packages.gz
+        SHA1:
+         ${PACKAGES_SHA1} ${PACKAGES_SIZE} Packages
+         ${PACKAGESGZ_SHA1} ${PACKAGESGZ_SIZE} Packages.gz
+        SHA256:
+         ${PACKAGES_SHA256} ${PACKAGES_SIZE} Packages
+         ${PACKAGESGZ_SHA256} ${PACKAGESGZ_SIZE} Packages.gz
+        Date: $(date -Ru)
+        EOF
+        
+        echo "✅ Updated Release file with checksums"
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        if [ -n "$(git status --porcelain)" ]; then
+          git add Packages.gz Release
+          git commit -m "🤖 Auto-update repository files"
+          git push
+          echo "✅ Pushed updated repository files"
+        else
+          echo "ℹ️ No changes to commit"
+        fi

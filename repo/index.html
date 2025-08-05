@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StealthCam Pro Repository</title>
+    <meta name="description" content="Official APT repository for StealthCam Pro - Professional iOS recording tweak">
+    <link rel="stylesheet" href="repo-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 仓库头部 -->
+    <header class="repo-header">
+        <div class="container">
+            <div class="repo-info">
+                <div class="repo-icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <div class="repo-details">
+                    <h1 class="repo-title">StealthCam Pro Repository</h1>
+                    <p class="repo-url">https://stealthcam.github.io/repo/</p>
+                    <p class="repo-description">Official repository for StealthCam Pro tweaks</p>
+                </div>
+            </div>
+            
+            <!-- 一键添加按钮 -->
+            <div class="quick-add-buttons">
+                <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://stealthcam.github.io/repo/" class="add-btn cydia-btn">
+                    <i class="fas fa-plus"></i>
+                    <span>Add to Cydia</span>
+                </a>
+                <a href="sileo://source/https://stealthcam.github.io/repo/" class="add-btn sileo-btn">
+                    <i class="fas fa-plus"></i>
+                    <span>Add to Sileo</span>
+                </a>
+                <a href="zbra://sources/add/https://stealthcam.github.io/repo/" class="add-btn zebra-btn">
+                    <i class="fas fa-plus"></i>
+                    <span>Add to Zebra</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 包列表 -->
+    <main class="packages-section">
+        <div class="container">
+            <h2 class="section-title">Available Packages</h2>
+            
+            <div class="package-grid">
+                <!-- StealthCam Pro 包 -->
+                <div class="package-card">
+                    <div class="package-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="package-info">
+                        <h3 class="package-name">StealthCam Pro</h3>
+                        <p class="package-id">com.stealthcam.pro</p>
+                        <p class="package-version">Version 1.0.0-6</p>
+                        <p class="package-description">
+                            Professional hidden recording tweak for iOS. Double-tap volume controls for discreet recording.
+                        </p>
+                        <div class="package-features">
+                            <span class="feature-tag">4K Recording</span>
+                            <span class="feature-tag">HDR Support</span>
+                            <span class="feature-tag">Background Mode</span>
+                        </div>
+                        <div class="package-compatibility">
+                            <div class="compat-item">
+                                <i class="fab fa-apple"></i>
+                                <span>iOS 14.0+</span>
+                            </div>
+                            <div class="compat-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>iPhone 8+</span>
+                            </div>
+                            <div class="compat-item">
+                                <i class="fas fa-wrench"></i>
+                                <span>Rootless</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-actions">
+                        <a href="./debs/com.stealthcam.pro_1.0.0-6+debug_iphoneos-arm64.deb" class="download-btn">
+                            <i class="fas fa-download"></i>
+                            Download DEB
+                        </a>
+                        <a href="depiction.html?package=com.stealthcam.pro" class="more-info-btn">
+                            More Info
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 手动添加说明 -->
+            <div class="manual-add-section">
+                <h3 class="manual-title">Manual Installation</h3>
+                <div class="manual-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-text">
+                            <strong>Copy Repository URL:</strong><br>
+                            <code class="repo-url-code">https://stealthcam.github.io/repo/</code>
+                            <button class="copy-btn" onclick="copyToClipboard('https://stealthcam.github.io/repo/')">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-text">
+                            <strong>Open your package manager</strong> (Cydia, Sileo, Zebra, etc.)
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-text">
+                            <strong>Go to Sources/Repos</strong> and tap "Add Source" or "+"
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-text">
+                            <strong>Paste the URL</strong> and confirm to add the repository
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 支持信息 -->
+            <div class="support-section">
+                <h3 class="support-title">Support & Contact</h3>
+                <div class="support-links">
+                    <a href="https://t.me/stealthcampro" class="support-link" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                        <span>Telegram Channel</span>
+                    </a>
+                    <a href="mailto:support@stealthcam.pro" class="support-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email Support</span>
+                    </a>
+                    <a href="../website/index.html" class="support-link">
+                        <i class="fas fa-globe"></i>
+                        <span>Official Website</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="repo-footer">
+        <div class="container">
+            <p>&copy; 2024 StealthCam Team. All rights reserved.</p>
+            <p>This repository is hosted on GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script>
+        // 复制链接功能
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                // 显示复制成功提示
+                const btn = event.target.closest('.copy-btn');
+                const originalIcon = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check"></i>';
+                btn.style.color = '#34C759';
+                
+                setTimeout(() => {
+                    btn.innerHTML = originalIcon;
+                    btn.style.color = '';
+                }, 2000);
+            });
+        }
+
+        // 检测用户代理来显示对应的添加按钮
+        document.addEventListener('DOMContentLoaded', function() {
+            const userAgent = navigator.userAgent.toLowerCase();
+            const buttons = document.querySelectorAll('.add-btn');
+            
+            // 为移动设备优化显示
+            if (/iphone|ipad|ipod/.test(userAgent)) {
+                buttons.forEach(btn => {
+                    btn.style.display = 'flex';
+                });
+            }
+        });
+
+        // 添加源按钮点击处理
+        document.querySelectorAll('.add-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href.startsWith('cydia://') || href.startsWith('sileo://') || href.startsWith('zbra://')) {
+                    e.preventDefault();
+                    
+                    // 尝试打开应用
+                    window.location.href = href;
+                    
+                    // 如果无法打开，显示手动添加提示
+                    setTimeout(() => {
+                        if (document.visibilityState === 'visible') {
+                            alert('Please make sure you have the corresponding package manager installed, or scroll down to add manually.');
+                        }
+                    }, 1000);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+Package: com.stealthcam.pro
+Version: 1.0.0-6+debug
+Architecture: iphoneos-arm64
+Maintainer: StealthCam Team <support@stealthcam.pro>
+Installed-Size: 2048
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.stealthcam.pro_1.0.0-6+debug_iphoneos-arm64.deb
+Size: 524288
+MD5sum: d41d8cd98f00b204e9800998ecf8427e
+SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Section: Tweaks
+Description: Professional hidden recording tweak for iOS
+ StealthCam Pro is a powerful iOS jailbreak tweak that enables
+ discreet video recording with double-tap volume controls.
+ .
+ Features:
+ • Double-tap volume down to start/stop recording
+ • 4K video recording support (720p to 4K, 30/60fps)
+ • Front/rear camera switching
+ • Audio recording toggle
+ • HDR video support
+ • Background operation
+ • Customizable settings
+ • Vibration feedback
+ .
+ Compatibility:
+ • iOS 14.0 - 16.6 (iOS 17 support in testing)
+ • iPhone 8 and newer
+ • Supports Dopamine, palera1n, Taurine, unc0ver
+Name: StealthCam Pro
+Author: StealthCam Team
+Homepage: https://stealthcam.github.io/repo
+Support: https://t.me/stealthcampro
+Sponsor: StealthCam Team <support@stealthcam.pro>
+Depiction: https://stealthcam.github.io/repo/depiction.html?package=com.stealthcam.pro
+SileoDepiction: https://stealthcam.github.io/repo/sileodepictions/com.stealthcam.pro.json
+ModernDepiction: https://stealthcam.github.io/repo/depictions/com.stealthcam.pro.json
+Tag: purpose::extension, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17

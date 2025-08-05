@@ -1,0 +1,212 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://stealthcam.github.io/repo/assets/sileo-header.jpg",
+    "tintColor": "#007AFF",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "class": "HiddenDepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "url": "https://stealthcam.github.io/repo/assets/screenshot1.jpg",
+                            "accessibilityText": "Settings Panel"
+                        },
+                        {
+                            "url": "https://stealthcam.github.io/repo/assets/screenshot2.jpg",
+                            "accessibilityText": "Recording Interface"
+                        },
+                        {
+                            "url": "https://stealthcam.github.io/repo/assets/screenshot3.jpg",
+                            "accessibilityText": "Video Quality Options"
+                        }
+                    ],
+                    "itemCornerRadius": 8,
+                    "itemSize": "{160, 284.44444444444}"
+                },
+                {
+                    "markdown": "**StealthCam Pro** is a powerful iOS jailbreak tweak that enables discreet video recording with double-tap volume controls. Designed for professional users who need reliable, high-quality recording capabilities.\n\n## ✨ Key Features\n\n• **🎯 Double-tap Control**: Volume down key double-tap to start/stop\n• **📹 4K Recording**: Support for 720p to 4K resolution at 30/60fps  \n• **🔄 Camera Switching**: Front and rear camera support\n• **🎤 Audio Recording**: Optional high-quality audio recording\n• **🌟 HDR Support**: High Dynamic Range video recording\n• **📱 Background Mode**: Completely hidden background operation\n• **⚙️ Customizable**: Adjustable settings and vibration feedback\n• **🔒 Privacy Focused**: No data collection or transmission\n\n## 🎯 Perfect for:\n\n• Security professionals and investigators\n• Journalists and documentarians  \n• Content creators and filmmakers\n• Anyone needing discreet recording capabilities\n\n## 🚀 Easy to Use\n\n1. Install and enable in Settings\n2. Double-tap volume down to start recording\n3. Double-tap again to stop\n4. Find your videos in the default camera roll\n\nNo complicated setup required - it just works!",
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "📱 Compatibility Information"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "iOS Versions",
+                    "action": "https://support.apple.com/en-us/HT201222",
+                    "openExternal": true,
+                    "tintColor": "#34C759"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "✅ iOS 14.0 - 14.8.1\n✅ iOS 15.0 - 15.7.9\n✅ iOS 16.0 - 16.7.2\n⚠️ iOS 17.0 - 17.1.2 (testing)",
+                    "textColor": "#34C759"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Supported Devices",
+                    "action": "https://support.apple.com/en-us/HT201296",
+                    "openExternal": true,
+                    "tintColor": "#007AFF"
+                },
+                {
+                    "class": "DepictionLabelView", 
+                    "text": "📱 iPhone 12 series and newer\n📱 iPhone 11 series\n📱 iPhone XS/XR series\n📱 iPhone X/8 series",
+                    "textColor": "#007AFF"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Jailbreak Tools",
+                    "action": "https://ios.cfw.guide/",
+                    "openExternal": true,
+                    "tintColor": "#5856D6"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "🔧 Dopamine (Rootless)\n🔧 palera1n\n🔧 Taurine\n🔧 unc0ver",
+                    "textColor": "#5856D6"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "⚠️ Important Legal Notice"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "This tweak is for educational and professional purposes only. Users are responsible for complying with local laws and regulations regarding recording. Please use responsibly and ethically.",
+                    "textColor": "#FF9500"
+                }
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "📝 Version History"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "🆕 Version 1.0.0-6"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "Released: August 5, 2024",
+                    "textColor": "#999999"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 🔧 Bug Fixes & Improvements\n\n• **Fixed**: System freeze issue with vibration feedback\n• **Improved**: Volume key detection accuracy and reliability\n• **Added**: Proper single-tap handling to prevent accidental triggers\n• **Enhanced**: Debug logging system for better troubleshooting\n• **Stability**: Overall system stability improvements\n\n### 🎯 What's Better\n\nThis update focuses on stability and user experience. The vibration feedback system has been completely rewritten to prevent system freezes, and volume key detection is now more accurate than ever."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Version 1.0.0-5"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "Released: August 5, 2024",
+                    "textColor": "#999999"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### ✨ New Features\n\n• **Added**: Vibration feedback for recording start/stop events\n• **Implemented**: UIImpactFeedbackGenerator for modern haptic feedback\n• **Enhanced**: Error handling and recovery mechanisms\n• **Improved**: Overall user experience with tactile feedback"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Version 1.0.0-4"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "Released: August 5, 2024",
+                    "textColor": "#999999"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 🔧 Core Improvements\n\n• **Fixed**: Volume key detection issues across different iOS versions\n• **Added**: Support for both volume up and volume down key selection\n• **Improved**: Preference handling and settings persistence\n• **Enhanced**: Configuration options for better customization"
+                }
+            ]
+        },
+        {
+            "tabname": "Support",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "🆘 Get Help & Support"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "💬 Join our Telegram Channel",
+                    "action": "https://t.me/stealthcampro",
+                    "openExternal": true,
+                    "tintColor": "#0088CC"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "Get instant support, updates, and chat with other users in our official Telegram channel.",
+                    "textColor": "#666666"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "📧 Email Support",
+                    "action": "mailto:support@stealthcam.pro",
+                    "openExternal": true,
+                    "tintColor": "#FF3B30"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "For technical issues or private inquiries, email our support team directly.",
+                    "textColor": "#666666"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "🌐 Official Website",
+                    "action": "https://stealthcam.github.io/website/",
+                    "openExternal": true,
+                    "tintColor": "#007AFF"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "Visit our website for detailed documentation, tutorials, and latest news.",
+                    "textColor": "#666666"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "📋 Common Issues & Solutions"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 🔧 Troubleshooting\n\n**Q: Double-tap not working?**\nA: Check if \"Use Volume Down Key\" is enabled in Settings > StealthCam Pro\n\n**Q: No vibration feedback?**\nA: Enable \"Vibration Feedback\" in settings and ensure system haptics are enabled\n\n**Q: Recording not starting?**\nA: Restart SpringBoard and check camera permissions in Privacy settings\n\n**Q: Videos not saving?**\nA: Check available storage space and Photos app permissions\n\n### 🆘 Still Need Help?\n\nIf your issue isn't listed above, please contact us through Telegram or email with:\n• Your iOS version\n• Device model\n• Jailbreak tool used\n• Detailed description of the issue"
+                }
+            ]
+        }
+    ]
+}
